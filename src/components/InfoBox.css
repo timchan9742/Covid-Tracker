@@ -1,0 +1,7 @@
+.infoBox {
+  flex: 1;
+}
+
+.app-stats :not(:last-child) {
+  margin-right: 15px;
+}

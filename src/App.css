@@ -1,0 +1,59 @@
+* {
+  margin: 0px;
+}
+
+.app {
+  display: flex;
+  background-color: #f5f6fa;
+  justify-content: space-evenly;
+  padding: 20px;
+  overflow: scroll;
+}
+
+.left-panel {
+  flex: 0.8;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.app-stats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.infoBox {
+  width: 200px;
+}
+
+
+.infoBox-cases {
+  color: red;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 990px) {
+  .app {
+      flex-direction: column;
+   }
+}
+
+.right-panel {
+  width: 400px;
+}
+
+.right-card-container > h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.right-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
